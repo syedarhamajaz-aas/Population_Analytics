@@ -1,0 +1,215 @@
+age_group,sex,income,smoking,pa_cat,n,obese_rate_unw,inactive_rate_unw,obese_rate_w,inactive_rate_w
+18–34,Female,20–39k,Current smoker,Active,5,0.8,0,0.9179472204985948,0
+18–34,Female,20–39k,Current smoker,Inactive,4,0.5,1,0.5422638735758911,1
+18–34,Female,20–39k,Current smoker,Moderately active,3,1,0,1,0
+18–34,Female,20–39k,Non-smoker,Active,6,0.8333333333333334,0,0.8861811655804287,0
+18–34,Female,20–39k,Non-smoker,Inactive,1,1,1,1,1
+18–34,Female,20–39k,Non-smoker,Moderately active,2,0.5,0,0.46355915465139247,0
+18–34,Female,40–59k,Current smoker,Active,8,0.375,0,0.4575414651002073,0
+18–34,Female,40–59k,Current smoker,Inactive,3,0.6666666666666666,1,0.7333333333333334,1
+18–34,Female,40–59k,Current smoker,Moderately active,5,0.6,0,0.8134322437321485,0
+18–34,Female,40–59k,Non-smoker,Active,9,0.7777777777777778,0,0.8247129648851061,0
+18–34,Female,40–59k,Non-smoker,Inactive,2,1,1,1,1
+18–34,Female,40–59k,Non-smoker,Moderately active,2,0.5,0,0.34320034320034315,0
+18–34,Female,60–79k,Current smoker,Active,2,0,0,0,0
+18–34,Female,60–79k,Current smoker,Inactive,2,1,1,1,1
+18–34,Female,60–79k,Current smoker,Moderately active,3,0.6666666666666666,0,0.5820285908781484,0
+18–34,Female,60–79k,Non-smoker,Active,1,1,0,1,0
+18–34,Female,60–79k,Non-smoker,Inactive,1,1,1,1,1
+18–34,Female,60–79k,Non-smoker,Moderately active,3,0.3333333333333333,0,0.47044102292125894,0
+18–34,Female,80k+,Current smoker,Active,13,0.6153846153846154,0,0.500525006461618,0
+18–34,Female,80k+,Current smoker,Inactive,6,0.8333333333333334,1,0.9087194755012192,1
+18–34,Female,80k+,Current smoker,Moderately active,8,0.625,0,0.5386862436099473,0
+18–34,Female,80k+,Non-smoker,Active,51,0.5882352941176471,0,0.6415653626071367,0
+18–34,Female,80k+,Non-smoker,Inactive,6,0.5,1,0.6167737209826459,1
+18–34,Female,80k+,Non-smoker,Moderately active,16,0.6875,0,0.740052195041471,0
+18–34,Female,<20k,Current smoker,Active,6,0.5,0,0.5891178235647129,0
+18–34,Female,<20k,Current smoker,Inactive,4,1,1,1,1
+18–34,Female,<20k,Current smoker,Moderately active,3,0.6666666666666666,0,0.6229116945107399,0
+18–34,Female,<20k,Non-smoker,Active,6,0.6666666666666666,0,0.7623611948968876,0
+18–34,Female,<20k,Non-smoker,Inactive,1,1,1,1,1
+18–34,Female,<20k,Non-smoker,Moderately active,1,0,0,0,0
+18–34,Male,20–39k,Current smoker,Active,6,0.16666666666666666,0,0.16030092592592593,0
+18–34,Male,20–39k,Current smoker,Inactive,5,0.2,1,0.21586535325200604,1
+18–34,Male,20–39k,Current smoker,Moderately active,1,0,0,0,0
+18–34,Male,20–39k,Non-smoker,Active,12,0.4166666666666667,0,0.41784090524486966,0
+18–34,Male,20–39k,Non-smoker,Inactive,1,1,1,1,1
+18–34,Male,20–39k,Non-smoker,Moderately active,4,0.75,0,0.348038677068454,0
+18–34,Male,40–59k,Current smoker,Active,6,0.3333333333333333,0,0.07764971842641745,0
+18–34,Male,40–59k,Current smoker,Inactive,1,0,1,0,1
+18–34,Male,40–59k,Current smoker,Moderately active,8,0.375,0,0.5281818846406902,0
+18–34,Male,40–59k,Non-smoker,Active,9,0.7777777777777778,0,0.9162662337662337,0
+18–34,Male,40–59k,Non-smoker,Inactive,2,0.5,1,0.5858886107634543,1
+18–34,Male,40–59k,Non-smoker,Moderately active,4,0.75,0,0.8136688787382573,0
+18–34,Male,60–79k,Current smoker,Inactive,4,0.25,1,0.12212226066897347,1
+18–34,Male,60–79k,Current smoker,Moderately active,1,0,0,0,0
+18–34,Male,60–79k,Non-smoker,Active,7,0.7142857142857143,0,0.5870905538781621,0
+18–34,Male,60–79k,Non-smoker,Inactive,1,1,1,1,1
+18–34,Male,80k+,Current smoker,Active,29,0.6896551724137931,0,0.6868782841203454,0
+18–34,Male,80k+,Current smoker,Inactive,3,0.3333333333333333,1,0.5001924409206374,1
+18–34,Male,80k+,Current smoker,Moderately active,4,0.5,0,0.211336962766394,0
+18–34,Male,80k+,Non-smoker,Active,69,0.6086956521739131,0,0.6171518661659569,0
+18–34,Male,80k+,Non-smoker,Inactive,8,0.75,1,0.8211004491629237,1
+18–34,Male,80k+,Non-smoker,Moderately active,8,0.625,0,0.729909396143009,0
+18–34,Male,<20k,Current smoker,Active,4,0.5,0,0.7107171635777599,0
+18–34,Male,<20k,Current smoker,Inactive,2,0.5,1,0.2856988667026443,1
+18–34,Male,<20k,Current smoker,Moderately active,3,0.3333333333333333,0,0.5875772054539098,0
+18–34,Male,<20k,Non-smoker,Active,4,0.5,0,0.7585151467587506,0
+18–34,Male,<20k,Non-smoker,Inactive,1,1,1,1,1
+18–34,Male,<20k,Non-smoker,Moderately active,1,1,0,1,0
+35–49,Female,20–39k,Current smoker,Active,2,0.5,0,0.18886161399202211,0
+35–49,Female,20–39k,Current smoker,Inactive,4,0.75,1,0.8875237393899462,1
+35–49,Female,20–39k,Current smoker,Moderately active,3,0,0,0,0
+35–49,Female,20–39k,Non-smoker,Active,4,1,0,1,0
+35–49,Female,20–39k,Non-smoker,Inactive,1,1,1,1,1
+35–49,Female,20–39k,Non-smoker,Moderately active,1,0,0,0,0
+35–49,Female,40–59k,Current smoker,Active,6,0.6666666666666666,0,0.5097200622083982,0
+35–49,Female,40–59k,Current smoker,Inactive,3,0,1,0,1
+35–49,Female,40–59k,Current smoker,Moderately active,5,0.6,0,0.5947818708901931,0
+35–49,Female,40–59k,Non-smoker,Active,6,0.6666666666666666,0,0.7242571582928148,0
+35–49,Female,40–59k,Non-smoker,Inactive,2,0.5,1,0.3429464412558602,1
+35–49,Female,40–59k,Non-smoker,Moderately active,2,0.5,0,0.5232328921430582,0
+35–49,Female,60–79k,Current smoker,Active,4,0.5,0,0.5851044372096426,0
+35–49,Female,60–79k,Current smoker,Moderately active,2,0.5,0,0.6212494862309906,0
+35–49,Female,60–79k,Non-smoker,Active,9,0.7777777777777778,0,0.8181952444247528,0
+35–49,Female,60–79k,Non-smoker,Inactive,1,1,1,1,1
+35–49,Female,80k+,Current smoker,Active,12,1,0,1,0
+35–49,Female,80k+,Current smoker,Inactive,5,0.6,1,0.4059521886609595,1
+35–49,Female,80k+,Current smoker,Moderately active,9,0.6666666666666666,0,0.6530627812952933,0
+35–49,Female,80k+,Non-smoker,Active,102,0.7254901960784313,0,0.7465500981401688,0
+35–49,Female,80k+,Non-smoker,Inactive,12,1,1,1,1
+35–49,Female,80k+,Non-smoker,Moderately active,30,0.8,0,0.8556763687842335,0
+35–49,Female,<20k,Current smoker,Active,4,0.75,0,0.7887323943661971,0
+35–49,Female,<20k,Current smoker,Inactive,2,1,1,1,1
+35–49,Female,<20k,Current smoker,Moderately active,2,0.5,0,0.35117835321501306,0
+35–49,Female,<20k,Non-smoker,Active,2,0.5,0,0.3531879194630873,0
+35–49,Male,20–39k,Current smoker,Active,10,0.5,0,0.7503734659531418,0
+35–49,Male,20–39k,Current smoker,Moderately active,4,0.5,0,0.2635336743393009,0
+35–49,Male,20–39k,Non-smoker,Active,5,0.8,0,0.5413475808845354,0
+35–49,Male,40–59k,Current smoker,Active,10,0.5,0,0.5353694987460061,0
+35–49,Male,40–59k,Current smoker,Inactive,5,0.4,1,0.8769849327864191,1
+35–49,Male,40–59k,Current smoker,Moderately active,3,0.6666666666666666,0,0.8811772457720184,0
+35–49,Male,40–59k,Non-smoker,Active,5,0.6,0,0.5973682730697857,0
+35–49,Male,40–59k,Non-smoker,Moderately active,2,1,0,1,0
+35–49,Male,60–79k,Current smoker,Active,8,0.75,0,0.7017445787622575,0
+35–49,Male,60–79k,Current smoker,Inactive,1,0,1,0,1
+35–49,Male,60–79k,Current smoker,Moderately active,1,1,0,1,0
+35–49,Male,60–79k,Non-smoker,Active,7,0.5714285714285714,0,0.5851985282845316,0
+35–49,Male,60–79k,Non-smoker,Moderately active,4,1,0,1,0
+35–49,Male,80k+,Current smoker,Active,16,0.75,0,0.7105734615579631,0
+35–49,Male,80k+,Current smoker,Inactive,8,0.875,1,0.9431512329962901,1
+35–49,Male,80k+,Current smoker,Moderately active,6,1,0,1,0
+35–49,Male,80k+,Non-smoker,Active,82,0.7073170731707317,0,0.7965758864545818,0
+35–49,Male,80k+,Non-smoker,Inactive,6,0.8333333333333334,1,0.873210358601499,1
+35–49,Male,80k+,Non-smoker,Moderately active,15,0.6666666666666666,0,0.621384211911749,0
+35–49,Male,<20k,Current smoker,Active,7,0.2857142857142857,0,0.406270554702916,0
+35–49,Male,<20k,Current smoker,Inactive,2,1,1,1,1
+35–49,Male,<20k,Non-smoker,Active,4,0.25,0,0.4748057713651499,0
+35–49,Male,<20k,Non-smoker,Moderately active,1,1,0,1,0
+50–64,Female,20–39k,Current smoker,Active,5,0.2,0,0.30706642507948445,0
+50–64,Female,20–39k,Current smoker,Inactive,2,0.5,1,0.5169667590027701,1
+50–64,Female,20–39k,Current smoker,Moderately active,1,0,0,0,0
+50–64,Female,20–39k,Non-smoker,Active,8,0.625,0,0.6977192317412181,0
+50–64,Female,20–39k,Non-smoker,Inactive,1,1,1,1,1
+50–64,Female,20–39k,Non-smoker,Moderately active,2,1,0,1,0
+50–64,Female,40–59k,Current smoker,Active,2,0.5,0,0.26697871971568504,0
+50–64,Female,40–59k,Current smoker,Inactive,5,0.8,1,0.9498098478783026,1
+50–64,Female,40–59k,Current smoker,Moderately active,2,1,0,1,0
+50–64,Female,40–59k,Non-smoker,Active,7,0.7142857142857143,0,0.8954360507868032,0
+50–64,Female,40–59k,Non-smoker,Inactive,2,0.5,1,0.8286445012787723,1
+50–64,Female,40–59k,Non-smoker,Moderately active,3,0.6666666666666666,0,0.6445344129554655,0
+50–64,Female,60–79k,Current smoker,Active,10,0.7,0,0.9022312930510038,0
+50–64,Female,60–79k,Current smoker,Inactive,3,1,1,1,1
+50–64,Female,60–79k,Current smoker,Moderately active,1,1,0,1,0
+50–64,Female,60–79k,Non-smoker,Active,11,0.8181818181818182,0,0.8217011128775834,0
+50–64,Female,60–79k,Non-smoker,Inactive,5,0.6,1,0.6766110785217464,1
+50–64,Female,60–79k,Non-smoker,Moderately active,1,1,0,1,0
+50–64,Female,80k+,Current smoker,Active,17,0.7058823529411765,0,0.8109752537107755,0
+50–64,Female,80k+,Current smoker,Inactive,11,0.7272727272727273,1,0.8804512010914584,1
+50–64,Female,80k+,Current smoker,Moderately active,6,0.6666666666666666,0,0.512222659839832,0
+50–64,Female,80k+,Non-smoker,Active,63,0.6031746031746031,0,0.5503780132256487,0
+50–64,Female,80k+,Non-smoker,Inactive,15,0.6,1,0.8117480224236113,1
+50–64,Female,80k+,Non-smoker,Moderately active,26,0.8846153846153846,0,0.9014287120391892,0
+50–64,Female,<20k,Current smoker,Active,3,0.3333333333333333,0,0.24813233724653147,0
+50–64,Female,<20k,Current smoker,Moderately active,2,0.5,0,0.8451548451548452,0
+50–64,Female,<20k,Non-smoker,Active,3,0.6666666666666666,0,0.8544410672070247,0
+50–64,Female,<20k,Non-smoker,Inactive,1,0,1,0,1
+50–64,Male,20–39k,Current smoker,Active,4,0.5,0,0.4234234234234235,0
+50–64,Male,20–39k,Current smoker,Inactive,5,0.6,1,0.6545094423385582,1
+50–64,Male,20–39k,Current smoker,Moderately active,2,0.5,0,0.3763343858066457,0
+50–64,Male,20–39k,Non-smoker,Active,5,0.2,0,0.09283905134699516,0
+50–64,Male,20–39k,Non-smoker,Moderately active,2,1,0,1,0
+50–64,Male,40–59k,Current smoker,Active,5,0.8,0,0.684863523573201,0
+50–64,Male,40–59k,Current smoker,Moderately active,1,0,0,0,0
+50–64,Male,40–59k,Non-smoker,Active,6,0.6666666666666666,0,0.860562829783076,0
+50–64,Male,40–59k,Non-smoker,Moderately active,5,0.8,0,0.8379569426383471,0
+50–64,Male,60–79k,Current smoker,Active,7,0.42857142857142855,0,0.6760454375234054,0
+50–64,Male,60–79k,Current smoker,Inactive,4,0.5,1,0.3608322686621646,1
+50–64,Male,60–79k,Current smoker,Moderately active,3,1,0,1,0
+50–64,Male,60–79k,Non-smoker,Active,6,0.8333333333333334,0,0.9711171871991373,0
+50–64,Male,60–79k,Non-smoker,Inactive,1,1,1,1,1
+50–64,Male,80k+,Current smoker,Active,19,0.7368421052631579,0,0.5591412349183819,0
+50–64,Male,80k+,Current smoker,Inactive,5,0.8,1,0.9340079990304206,1
+50–64,Male,80k+,Current smoker,Moderately active,4,0.5,0,0.4037720425084667,0
+50–64,Male,80k+,Non-smoker,Active,58,0.7931034482758621,0,0.8201063179188033,0
+50–64,Male,80k+,Non-smoker,Inactive,17,0.9411764705882353,1,0.7163916929781652,1
+50–64,Male,80k+,Non-smoker,Moderately active,13,0.8461538461538461,0,0.7603889080914737,0
+50–64,Male,<20k,Current smoker,Active,10,0.7,0,0.7830031111838874,0
+50–64,Male,<20k,Current smoker,Moderately active,5,0.2,0,0.4122752080164624,0
+50–64,Male,<20k,Non-smoker,Active,4,0.5,0,0.5056241426611796,0
+50–64,Male,<20k,Non-smoker,Inactive,3,1,1,1,1
+50–64,Male,<20k,Non-smoker,Moderately active,6,0.8333333333333334,0,0.7844425464818343,0
+65+,Female,20–39k,Current smoker,Active,4,0.75,0,0.794795978710822,0
+65+,Female,20–39k,Current smoker,Inactive,3,0.6666666666666666,1,0.8635695023290023,1
+65+,Female,20–39k,Current smoker,Moderately active,3,0,0,0,0
+65+,Female,20–39k,Non-smoker,Active,9,0.8888888888888888,0,0.9484212030290042,0
+65+,Female,20–39k,Non-smoker,Inactive,12,0.6666666666666666,1,0.7473392505723121,1
+65+,Female,20–39k,Non-smoker,Moderately active,3,1,0,1,0
+65+,Female,40–59k,Current smoker,Active,2,0.5,0,0.16107793599755013,0
+65+,Female,40–59k,Current smoker,Inactive,6,0.5,1,0.4977255810106691,1
+65+,Female,40–59k,Current smoker,Moderately active,2,0.5,0,0.6087775032356747,0
+65+,Female,40–59k,Non-smoker,Active,15,0.6666666666666666,0,0.6440217391304348,0
+65+,Female,40–59k,Non-smoker,Inactive,9,0.7777777777777778,1,0.8159084862995478,1
+65+,Female,40–59k,Non-smoker,Moderately active,5,0.6,0,0.5909045175570984,0
+65+,Female,60–79k,Current smoker,Inactive,3,0.3333333333333333,1,0.492491814384103,1
+65+,Female,60–79k,Current smoker,Moderately active,1,0,0,0,0
+65+,Female,60–79k,Non-smoker,Active,6,0.6666666666666666,0,0.4426687205160296,0
+65+,Female,60–79k,Non-smoker,Inactive,6,0.5,1,0.5615212527964206,1
+65+,Female,60–79k,Non-smoker,Moderately active,4,0.5,0,0.6357717885894295,0
+65+,Female,80k+,Current smoker,Active,3,0,0,0,0
+65+,Female,80k+,Current smoker,Inactive,2,0.5,1,0.5721291377196568,1
+65+,Female,80k+,Current smoker,Moderately active,3,0.6666666666666666,0,0.44081221198156684,0
+65+,Female,80k+,Non-smoker,Active,46,0.6086956521739131,0,0.5964824791842913,0
+65+,Female,80k+,Non-smoker,Inactive,22,0.8181818181818182,1,0.8628495835739971,1
+65+,Female,80k+,Non-smoker,Moderately active,14,0.7857142857142857,0,0.732649276056001,0
+65+,Female,<20k,Current smoker,Inactive,1,0,1,0,1
+65+,Female,<20k,Non-smoker,Active,2,0,0,0,0
+65+,Female,<20k,Non-smoker,Inactive,6,0.8333333333333334,1,0.9382890060056378,1
+65+,Female,<20k,Non-smoker,Moderately active,6,0.16666666666666666,0,0.13582474226804123,0
+65+,Male,20–39k,Current smoker,Active,3,1,0,1,0
+65+,Male,20–39k,Current smoker,Inactive,5,1,1,1,1
+65+,Male,20–39k,Current smoker,Moderately active,4,0.5,0,0.4690868627860074,0
+65+,Male,20–39k,Non-smoker,Active,19,0.7368421052631579,0,0.7963551886686063,0
+65+,Male,20–39k,Non-smoker,Inactive,8,0.75,1,0.7475041964837883,1
+65+,Male,20–39k,Non-smoker,Moderately active,2,0,0,0,0
+65+,Male,40–59k,Current smoker,Active,2,0.5,0,0.2875337707448862,0
+65+,Male,40–59k,Current smoker,Inactive,3,0.6666666666666666,1,0.8971433007297004,1
+65+,Male,40–59k,Current smoker,Moderately active,1,1,0,1,0
+65+,Male,40–59k,Non-smoker,Active,11,0.5454545454545454,0,0.4299692259133591,0
+65+,Male,40–59k,Non-smoker,Inactive,8,0.625,1,0.5273422562141492,1
+65+,Male,40–59k,Non-smoker,Moderately active,6,0.6666666666666666,0,0.4074226804123712,0
+65+,Male,60–79k,Current smoker,Active,1,1,0,1,0
+65+,Male,60–79k,Current smoker,Inactive,1,0,1,0,1
+65+,Male,60–79k,Non-smoker,Active,10,0.5,0,0.4813625355375382,0
+65+,Male,60–79k,Non-smoker,Inactive,5,0.6,1,0.8230184023851136,1
+65+,Male,60–79k,Non-smoker,Moderately active,3,0.6666666666666666,0,0.697080291970803,0
+65+,Male,80k+,Current smoker,Active,3,1,0,1,0
+65+,Male,80k+,Current smoker,Inactive,5,0.6,1,0.7412217412217412,1
+65+,Male,80k+,Current smoker,Moderately active,1,0,0,0,0
+65+,Male,80k+,Non-smoker,Active,55,0.7090909090909091,0,0.7346973045588491,0
+65+,Male,80k+,Non-smoker,Inactive,14,0.9285714285714286,1,0.7271261822913632,1
+65+,Male,80k+,Non-smoker,Moderately active,6,1,0,1,0
+65+,Male,<20k,Current smoker,Active,1,1,0,1,0
+65+,Male,<20k,Non-smoker,Active,6,0.5,0,0.7068702918536204,0
+65+,Male,<20k,Non-smoker,Inactive,1,0,1,0,1
+65+,Male,<20k,Non-smoker,Moderately active,2,0.5,0,0.5026620732853117,0
