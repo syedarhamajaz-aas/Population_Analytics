@@ -1,0 +1,118 @@
+---
+title: "STAT 3550 Term Project: Physical Activity and Obesity in Canadian Adults"
+author: "Your Name"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: true
+    toc_depth: 3
+---
+
+# Introduction
+
+This report examines whether low physical activity is associated with a higher risk of obesity among Canadian adults, using data from the 2022 Canadian Community Health Survey (CCHS) Public Use Microdata File (PUMF).
+
+# Load Packages
+
+```{r}
+library(tidyverse)
+library(broom)
+library(ggplot2)
+```
+
+# Load Dataset in R
+
+```{r}
+cchs <- readr::read_csv("C:/Users/PAPIMACHINE1/Documents/Study/Stats 3530/Term Project/pumf_cchs.csv")
+glimpse(cchs)
+```
+
+# Data Cleaning & Variable Recoding
+
+```{r}
+cchs_adults <- cchs %>%
+  filter(DHHGAGE %in% c(2,3,4,5)) %>%
+  mutate(
+    obese = case_when(
+      HWTDGBCC == 2 ~ 1,
+      HWTDGBCC == 1 ~ 0,
+      TRUE ~ NA_real_
+    ),
+    pa_cat = case_when(
+      PAADVACV == 1 ~ "Active",
+      PAADVACV == 2 ~ "Moderately active",
+      PAADVACV == 3 ~ "Inactive",
+      TRUE ~ NA_character_
+    ),
+    age_group = factor(DHHGAGE,
+                       levels = c(2,3,4,5),
+                       labels = c("18–34","35–49","50–64","65+")),
+    sex = factor(DHH_SEX,
+                 levels = c(1,2),
+                 labels = c("Male","Female")),
+    smoking = case_when(
+      SMKDVSTY %in% c(1,2) ~ "Current smoker",
+      SMKDVSTY %in% c(3,4,5,6) ~ "Non-smoker",
+      TRUE ~ NA_character_
+    ),
+    income = factor(INCDGHH,
+                    levels = c(1,2,3,4,5,9),
+                    labels = c("<20k","20–39k","40–59k","60–79k","80k+","Not stated"))
+  ) %>%
+  filter(
+    !is.na(obese),
+    !is.na(pa_cat),
+    !is.na(smoking),
+    income != "Not stated"
+  )
+```
+
+# Descriptive Statistics for understanding the Data
+
+```{r}
+table(cchs_adults$pa_cat)
+table(cchs_adults$obese)
+```
+
+# Obesity Prevalence Plot for Data Analysis 
+
+```{r}
+plot_pa <- cchs_adults %>%
+  group_by(pa_cat) %>%
+  summarise(obesity_rate = mean(obese)) %>%
+  ggplot(aes(x = pa_cat, y = obesity_rate)) +
+  geom_col(fill = "steelblue") +
+  labs(
+    title = "Obesity Prevalence by Physical Activity Level (CCHS 2022)",
+    x = "Physical Activity Category",
+    y = "Obesity Prevalence"
+  ) +
+  scale_y_continuous(labels = scales::percent) +
+  theme_minimal()
+
+plot_pa
+ggsave("obesity_by_pa.png", plot = plot_pa, width = 7, height = 5)
+```
+
+# Logistic Regression Model of the Data
+
+```{r}
+model <- glm(
+  obese ~ pa_cat + age_group + sex + smoking + income,
+  data = cchs_adults,
+  family = binomial()
+)
+
+summary(model)
+```
+
+# Odds Ratios Table of the Data 
+
+```{r}
+or_table <- tidy(model, exponentiate = TRUE, conf.int = TRUE)
+or_table
+```
+
+# Conclusion
+
+Low physical activity is significantly associated with a higher risk of obesity among Canadian adults, even after adjusting for age, sex, smoking status, and income.
