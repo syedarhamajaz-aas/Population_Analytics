@@ -4,6 +4,18 @@
 
 ## R Data Cleaning and Power BI Visualization Using CCHS 2022
 
+### Dashboard Overview
+
+
+### Full Dashboard Overview
+![Power BI Dashboard Overview](screenshots/dashboard.png)
+
+### Key Population Health Indicators
+![Weighted KPI Cards](screenshots/KPI_Cards.png)
+
+### Obesity by Physical Activity Level
+![Weighted Obesity by Physical Activity Level](screenshots/Age_Groups.png)
+
 
 
 ### Project Overview
