@@ -8,7 +8,7 @@
 
 
 ### Full Dashboard Overview
-![Power BI Dashboard Overview](screenshots/dashboard.png)
+![Power BI Dashboard Overview](screenshots/Dashboard.png)
 
 ### Key Population Health Indicators
 ![Weighted KPI Cards](screenshots/KPI_Cards.png)
